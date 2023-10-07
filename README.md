@@ -13,7 +13,7 @@ ___
 
 ## Install CodeIgniter 4 Menggunakan Composer
 ```
-composer create-project codeigniter4/appstarter project-root
+composer create-project codeigniter4/appstarter peta-lokasi-objek
 ```
 
 ## CI4 Database Connection
