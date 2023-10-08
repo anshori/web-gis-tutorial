@@ -1,0 +1,242 @@
+[
+  {
+    "nama": "Kota Yogyakarta",
+    "deskripsi": "Kota Yogyakarta (Jawa: ꦔꦪꦺꦴꦒꦾꦏꦂꦠ, translit. Ngayogyakarta, pengucapan bahasa Jawa: [kuʈɔ ŋajogjɔˈkart̪ɔ], atau dikenal oleh masyarakat setempat dengan sebutan nama Yogya atau Jogja) adalah ibu kota daerah istimewa sekaligus pusat pemerintahan dan perekonomian dari Daerah Istimewa Yogyakarta, Indonesia. Kota ini adalah kota besar yang mempertahankan konsep tradisional dan budaya Jawa. Nama Yogyakarta terambil dari dua kata, yaitu Ayogya atau Ayodhya yang berarti 'kedamaian' (atau tanpa perang, a 'tidak', yogya merujuk pada yodya atau yudha, yang berarti 'perang'), dan Karta yang berarti 'baik'. Ayodhya merupakan kota yang bersejarah di India di mana wiracarita Ramayana terjadi. Tapak keraton Yogyakarta sendiri menurut babad (misalnya Babad Giyanti) dan leluri (riwayat oral) telah berupa sebuah dalem yang bernama Dalem Gerjiwati; lalu dinamakan ulang oleh Sunan Pakubuwana II sebagai Dalem Ayogya.",
+    "latitude": -7.7956,
+    "longitude": 110.3695,
+    "created_at": "2023-10-01 00:00:00",
+    "updated_at": "2023-10-01 00:00:10"
+  },
+  {
+    "nama": "Surakarta",
+    "deskripsi": "Surakarta (Hanacaraka: ꦯꦸꦫꦏꦂꦠ, disingkat Solo (ꦱꦭꦺꦴꦮ) adalah kota yang terletak di Provinsi Jawa Tengah, Indonesia. Kota ini juga dikenal dengan sebutan Kota Bengawan atau Kota Solo. Surakarta merupakan kota budaya dan pusat kegiatan ekonomi, politik, dan pendidikan di Jawa Tengah bagian selatan. Surakarta juga merupakan kota terbesar di Jawa Tengah setelah Kota Semarang. Surakarta merupakan kota yang berbatasan langsung dengan Kabupaten Karanganyar dan Kabupaten Boyolali di sebelah utara, Kabupaten Sukoharjo di sebelah timur, Kabupaten Wonogiri di sebelah selatan, serta Kabupaten Klaten di sebelah barat. Surakarta juga merupakan kota yang berada di tengah-tengah Provinsi Jawa Tengah.",
+    "latitude": -7.5561,
+    "longitude": 110.8316,
+    "created_at": "2023-10-01 00:00:00",
+    "updated_at": "2023-10-01 00:00:10"
+  },
+  {
+    "nama": "Semarang",
+    "deskripsi": "Semarang (Hanacaraka: ꦱꦼꦩ꧀ꦧꦁ) adalah ibu kota Provinsi Jawa Tengah, Indonesia sekaligus kota metropolitan terbesar kelima di Indonesia sesudah Jakarta, Surabaya, Medan, dan Bandung. Semarang merupakan kota terbesar di Jawa Tengah dan menjadi kota terbesar di pesisir utara Pulau Jawa. Semarang merupakan kota pelabuhan utama di pantai utara Jawa serta kota terbesar di wilayah Kedungsepur, Semarang Raya, dan sekitarnya. Semarang merupakan kota terbesar kelima di Indonesia setelah Jakarta, Surabaya, Medan, dan Bandung. Semarang merupakan kota terbesar di Jawa Tengah dan menjadi kota terbesar di pesisir utara Pulau Jawa. Semarang merupakan kota pelabuhan utama di pantai utara Jawa serta kota terbesar di wilayah Kedungsepur, Semarang Raya, dan sekitarnya.",
+    "latitude": -6.9667,
+    "longitude": 110.4167,
+    "created_at": "2023-10-01 00:00:00",
+    "updated_at": "2023-10-01 00:00:10"
+  },
+  {
+    "nama": "Surabaya",
+    "deskripsi": "Surabaya (Hanacaraka: ꦯꦸꦫꦧꦪ, translit. Suroboyo) adalah ibu kota Provinsi Jawa Timur, Indonesia. Kota ini merupakan kota terbesar kedua di Indonesia setelah Jakarta. Surabaya merupakan kota terbesar di luar Pulau Jawa, serta menjadi pusat bisnis, perdagangan, industri, dan pendidikan di wilayah Indonesia bagian timur. Surabaya juga merupakan kota terbesar di wilayah Indonesia bagian timur. Surabaya merupakan kota metropolitan terbesar di Indonesia setelah Jakarta, Surabaya, Medan, dan Bandung. Surabaya merupakan kota terbesar di Jawa Timur dan menjadi kota terbesar di pesisir utara Pulau Jawa. Surabaya merupakan kota pelabuhan utama di pantai utara Jawa serta kota terbesar di wilayah Kedungsepur, Surabaya Raya, dan sekitarnya.",
+    "latitude": -7.2653,
+    "longitude": 112.7413,
+    "created_at": "2023-10-01 00:00:00",
+    "updated_at": "2023-10-01 00:00:10"
+  },
+  {
+    "nama": "Malang",
+    "deskripsi": "Malang (Hanacaraka: ꦩꦭꦁ) adalah nama sebuah kota di Provinsi Jawa Timur, Indonesia. Kota ini terletak 90 km sebelah selatan Kota Surabaya atau 12 km sebelah barat daya Kabupaten Malang. Malang adalah kota terbesar kedua di Jawa Timur setelah Surabaya. Malang merupakan kota terbesar di wilayah Indonesia bagian timur. Malang merupakan kota metropolitan terbesar kelima di Indonesia setelah Jakarta, Surabaya, Medan, dan Bandung. Malang merupakan kota terbesar di Jawa Timur dan menjadi kota terbesar di pesisir utara Pulau Jawa. Malang merupakan kota pelabuhan utama di pantai utara Jawa serta kota terbesar di wilayah Kedungsepur, Malang Raya, dan sekitarnya.",
+    "latitude": -7.9666,
+    "longitude": 112.6326,
+    "created_at": "2023-10-01 00:00:00",
+    "updated_at": "2023-10-01 00:00:10"
+  },
+  {
+    "nama": "Padang",
+    "deskripsi": "Padang adalah kota terbesar di pantai barat Pulau Sumatra sekaligus ibu kota Provinsi Sumatera Barat, Indonesia. Kota ini adalah pintu gerbang barat Indonesia dari Samudra Hindia.[7] Secara geografi, Padang dikelilingi perbukitan yang mencapai ketinggian 1.853 mdpl dengan luas wilayah 1.414,96 km², lebih dari separuhnya berupa hutan lindung. Berdasarkan data Badan Pusat Statistik (BPS) pada 2022, kota ini memiliki jumlah penduduk sebanyak 919.145 jiwa.[3] Padang merupakan kota inti dari pengembangan wilayah metropolitan Palapa.",
+    "latitude": -0.9729299,
+    "longitude": 100.3848267,
+    "created_at": "2023-10-01 00:00:00",
+    "updated_at": "2023-10-01 00:00:10"
+  },
+  {
+    "nama": "Jambi",
+    "deskripsi": "Jambi merupakan wilayah yang terkenal dalam literatur kuno. Nama negeri ini, sering disebut dalam prasasti dan juga berita-berita Tiongkok. Ini merupakan bukti bahwa, orang Cina telah lama memiliki hubungan dengan Jambi, yang mereka sebut dengan nama Kien-pi atau Chan-pei. Diperkirakan, telah berdiri empat kerajaan Melayu Kuno di Jambi, yaitu kerajaan Koying (abad ke-3 M), Tupo (abad ke-3 M), Kantoli (abad ke-5) dan Zabag.[5][6] Daerah pedalaman Jambi juga ditemukan Prasasti Karang Berahi, prasasti ini berbahasa Melayu Kuno ditulis dalam aksara Pallawa, dengan pertanggalan abad ke 7 Masehi.",
+    "latitude": -1.6203101,
+    "longitude": 103.6025969,
+    "created_at": "2023-10-01 00:00:00",
+    "updated_at": "2023-10-01 00:00:10"
+  },
+  {
+    "nama": "Pangkalpinang",
+    "deskripsi": "Pangkalpinang adalah ibu kota dan pusat pemerintahan Provinsi Kepulauan Bangka Belitung, Indonesia. Secara astronomis, Kota Pangkalpinang terletak antara 20,4 sampai dengan 20,10 Lintang Selatan dan antara 106,04 sampai dengan 106,07 Bujur Timur. Kota ini terletak di bagian timur Pulau Bangka. Kota Pangkalpinang terbagi dalam 7 kecamatan dan memiliki 42 kelurahan. Kota Pangkalpinang merupakan pusat pemerintahan, pusat pemerintahan kota di kelurahan Bukit Intan, dan pusat pemerintahan provinsi dan instansi vertikal di kelurahan Air Itam. Kantor pusat PT. Timah Tbk juga berada di sini. Pangkalpinang juga merupakan pusat aktivitas bisnis atau perdagangan dan industri di Bangka Belitung. Secara administratif, kota Pangkalpinang ditetapkan sebagai ibukota provinsi Kepulauan Bangka Belitung pada tanggal 9 februari 2001.",
+    "latitude": -2.1418350,
+    "longitude": 106.1169434,
+    "created_at": "2023-10-01 00:00:00",
+    "updated_at": "2023-10-01 00:00:10"
+  },
+  {
+    "nama": "Jakarta",
+    "deskripsi": "Jakarta (secara resmi bernama Daerah Khusus Ibukota Jakarta/DKI Jakarta) adalah ibu kota Indonesia dan sekaligus daerah otonom setingkat provinsi. Jakarta memiliki lima kota administrasi dan satu kabupaten administrasi. Sementara menurut pengertian secara umum, Jakarta merupakan kota metropolitan. Jakarta terletak di pesisir bagian barat laut Pulau Jawa. Dahulu pernah dikenal sebagai Sunda Kelapa, Jayakarta, dan Batavia. Jakarta juga mempunyai julukan The Big Durian karena dianggap kota yang sebanding dengan New York City (Big Apple).",
+    "latitude": -6.1678623,
+    "longitude": 106.8255615,
+    "created_at": "2023-10-01 00:00:00",
+    "updated_at": "2023-10-01 00:00:10"
+  },
+  {
+    "nama": "Bogor",
+    "deskripsi": "Bogor (Sunda: ᮘᮧᮌᮧᮁ, bahasa Belanda: Buitenzorg) adalah sebuah kota yang terletak di provinsi Jawa Barat, Indonesia. Kota ini terletak 59 km di sebelah selatan Jakarta, dan merupakan enklave Kabupaten Bogor. Pada pertengahan tahun 2022, jumlah penduduk Kota Bogor sebanyak 1.114.018 jiwa, dengan kepadatan 10.001 jiwa/km². Kota Bogor dikenal dengan julukan Kota Hujan, karena memiliki curah hujan yang lumayan sangat tinggi. Kota Bogor terdiri atas 6 kecamatan yang dibagi lagi atas sejumlah 68 kelurahan. Pada masa Kolonial Belanda, Kota Bogor dikenal dengan nama Buitenzorg yang berarti tanpa kecemasan atau aman tentram.",
+    "latitude": -6.5936739,
+    "longitude": 106.7932892,
+    "created_at": "2023-10-01 00:00:00",
+    "updated_at": "2023-10-01 00:00:10"
+  },
+  {
+    "nama": "Pontianak",
+    "deskripsi": "Pontianak (Jawi: كوتا ڤونتيانق, Hanzi: 坤甸, Hakka: Khuntîen) adalah ibu kota Provinsi Kalimantan Barat, Indonesia yang sekaligus menjadi pusat pemerintahan dan perekonomian dari Provinsi Kalimantan Barat. Kota ini didirikan pertama kali sebagai pelabuhan perdagangan di pulau Kalimantan, menempati area seluas 118,31 km² di delta Sungai Kapuas pada titik di mana ia bergabung dengan anak sungai utamanya. , Sungai Landak. Kota ini berada di garis khatulistiwa, sehingga dikenal luas sebagai Kota Khatulistiwa (Kota Khatulistiwa). Pusat kota kurang dari 3 km selatan khatulistiwa. Pontianak adalah kota terpadat ke-26 di Indonesia, dan kota terpadat kelima di pulau Kalimantan (Borneo) setelah Samarinda, Balikpapan, Kuching dan Banjarmasin. Itu memiliki populasi 672.440 pada Sensus 2021 di dalam batas kota, dengan pinggiran kota yang signifikan di luar batas itu.",
+    "latitude": -0.0164795,
+    "longitude": 109.3482971,
+    "created_at": "2023-10-01 00:00:00",
+    "updated_at": "2023-10-01 00:00:10"
+  },
+  {
+    "nama": "Balikpapan",
+    "deskripsi": "Balikpapan adalah sebuah kota di provinsi Kalimantan Timur, Indonesia. Sebagai pusat bisnis dan industri, kota ini memiliki perekonomian terbesar di seluruh Kalimantan, dengan total PDRB mencapai Rp79,65 triliun pada tahun 2016.[7] Dari sisi kependudukan, Balikpapan adalah kota terbesar kedua di Kalimantan Timur (setelah Kota Samarinda) dengan total penduduk sebanyak 645.727 pada tahun 2018[8] dan pada tahun 2019 berjumlah 655.178 jiwa.[2] Balikpapan merupakan salah satu dari 3 gerbang menuju ibu kota Indonesia yang baru, dengan keberadaan Pelabuhan Semayang (tersibuk kedua setelah Pelabuhan Samarinda[9]) dan Bandar Udara Internasional Sultan Aji Muhammad Sulaiman yang merupakan kota tersibuk ketiga di Kalimantan,[10] setelah Banjarmasin[11][12] dan Pontianak.",
+    "latitude": -1.2317472,
+    "longitude": 116.8615723,
+    "created_at": "2023-10-01 00:00:00",
+    "updated_at": "2023-10-01 00:00:10"
+  },
+  {
+    "nama": "Manado",
+    "deskripsi": "Manado atau Menado adalah ibu kota dari provinsi Sulawesi Utara, Indonesia. Kota Manado memiliki 11 kecamatan serta 87 kelurahan dan desa. Manado terletak di Teluk Manado, dan dikelilingi oleh daerah pegunungan serta pesisir pantainya merupakan tanah reklamasi yang dijadikan kawasan perbelanjaan, Kota ini memiliki 408.354 penduduk pada Sensus 2010, sehingga menjadikannya kota terbesar kedua di Pulau Sulawesi setelah Kota Makassar. Jumlah penduduk di Manado diperkirakan (berdasarkan Januari 2014) adalah 430.790 jiwa[7] dan bertambah menjadi 476.910 jiwa per tanggal 30 Juni 2022, berdasarkan data Kementerian Dalam Negeri tahun 2022, dengan kepadatan 2.934 jiwa/km2.",
+    "latitude": 1.5022082,
+    "longitude": 124.8596191,
+    "created_at": "2023-10-01 00:00:00",
+    "updated_at": "2023-10-01 00:00:10"
+  },
+  {
+    "nama": "Tahuna",
+    "deskripsi": "Tahuna adalah sebuah kecamatan yang juga merupakan ibukota Kabupaten Kepulauan Sangihe, Sulawesi Utara, Indonesia. Kecamatan ini, bersama dua kecamatan lainnya, yakni Tahuna Timur dan Tahuna Barat, merupakan wilayah dataran teluk Tahuna.[1] Jumlah penduduk kecamatan ini berjumlah 16.139 (2020), dengan luas wilayah 25,76 km², dan kepadatan penduduk 626,51 jiwa/km². Sarana transportasi dari luar Kabupaten yang terdekat adalah Pelabuhan Tahuna yang melayani arus penumpang keluar-masuk Pulau Sangihe. Lapangan udara terdekat dan satu-satunya yang ada di kabupaten Kepulauan Sangihe adalah Bandar Udara Naha yang terletak di desa Naha Kecamatan Tabukan Utara, beberapa kilometer di sebelah utara Tahuna.",
+    "latitude": 3.6148480,
+    "longitude": 125.5009460,
+    "created_at": "2023-10-01 00:00:00",
+    "updated_at": "2023-10-01 00:00:10"
+  },
+  {
+    "nama": "Ternate",
+    "deskripsi": "Ternate adalah sebuah kota yang berada di bawah kaki gunung api Gamalama di Pulau Ternate, provinsi Maluku Utara, Indonesia. Kota Ternate pernah menjadi ibu kota sementara provinsi Maluku Utara secara de facto dari tahun 1999 hingga 2010. Pada tanggal 4 Agustus 2010, Sofifi diresmikan menjadi ibu kota Maluku Utara pengganti Ternate, sebuah kelurahan di Kota Tidore Kepulauan yang berada di pulau Halmahera.",
+    "latitude": 0.7868710,
+    "longitude": 127.3820114,
+    "created_at": "2023-10-01 00:00:00",
+    "updated_at": "2023-10-01 00:00:10"
+  },
+  {
+    "nama": "Ambon",
+    "deskripsi": "Ambon atau Ambong dalam bahasa setempat[7] (diucapkan sebagai ['ʔamboːŋ]) adalah ibu kota dan kota terbesar dari Provinsi Maluku. Kota yang berdiri di selatan Pulau Ambon ini[8] berawal dari pendirian sebuah benteng yang senantiasa menjadi pusat pertumbuhan kota.[9] Kota ini didirikan oleh bangsa Portugis yang menamainya dengan istilah Nossa Senhora da Anunciada.[c 1] Sejak zaman VOC dan Belanda, kota ini berkembang cepat sebagai pusat pembudidayaan dan perdagangan rempah[10][11] dan salah satu kota penting di Nusantara hingga sekarang berkedudukan sebagai ibu kota provinsi.[12] Kini, kota ini berkedudukan sebagai kota yang dikepalai oleh wali kota[13] dengan dewan perwakilan rakyat setempat sebagai penyelenggara bersamanya.",
+    "latitude": -3.6929466,
+    "longitude": 128.1863249,
+    "created_at": "2023-10-01 00:00:00",
+    "updated_at": "2023-10-01 00:00:10"
+  },
+  {
+    "nama": "Denpasar",
+    "deskripsi": "Denpasar (Bali: ᬤᬾᬦ᭄ᬧᬲᬃ) adalah ibu kota dan sekaligus menjadi pusat pemerintahan dan perekonomian dari provinsi Bali, Indonesia. Denpasar adalah kota terbesar di Kepulauan Nusa Tenggara dan kota terbesar kedua di wilayah Indonesia Timur setelah Kota Makassar. Pertumbuhan industri pariwisata di pulau Bali mendorong kota Denpasar menjadi pusat kegiatan bisnis, dan menempatkan kota ini sebagai daerah yang memiliki pendapatan per kapita dan pertumbuhan tinggi di provinsi Bali. Pemerintah akan mempersiapkan tiga kota yaitu Medan, Denpasar, dan Makassar sebagai kota metropolitan baru. Tata ruang tiga kota itu masuk dalam Rencana Tata Ruang Wilayah Nasional (Perpres 45/2011).",
+    "latitude": -8.6326186,
+    "longitude": 115.2026367,
+    "created_at": "2023-10-01 00:00:00",
+    "updated_at": "2023-10-01 00:00:10"
+  },
+  {
+    "nama": "Mataram",
+    "deskripsi": "Mataram merupakan ibu kota provinsi Nusa Tenggara Barat, Indonesia. Adat Sasak cukup mewarnai masyarakat di kota ini. Mataram merupakan bagian dari Mataram Raya kawasan metropolitan terbesar kedua di Kepulauan Nusa Tenggara setelah Sarbagita. Jumlah penduduk kota Mataram tahun 2022 sebanyak 449.259 jiwa, dengan kepadatan penduduk sebanyak 7.203 jiwa/km2.",
+    "latitude": -8.5728736,
+    "longitude": 116.1090088,
+    "created_at": "2023-10-01 00:00:00",
+    "updated_at": "2023-10-01 00:00:10"
+  },
+  {
+    "nama": "Larantuka",
+    "deskripsi": "Larantuka adalah sebuah kecamatan yang berada di Kabupaten Flores Timur, provinsi Nusa Tenggara Timur, Indonesia, dan sekaligus sebagai ibukota dari Kabupaten Flores Timur.[1] Larantuka dikenal sebagai tujuan wisata rohani bagi umat Katolik, khususnya bagi warga Nusa Tenggara Timur. Kota kecil yang terletak di kaki Gunung Ile Mandiri ini, memiliki tradisi peninggalan Portugis.[2] Luas wilayah Larantuka 75,91 km², dengan jumlah penduduk tahun 2020 sekitar 45.515 jiwa.",
+    "latitude": -8.3195329,
+    "longitude": 123.0070496,
+    "created_at": "2023-10-01 00:00:00",
+    "updated_at": "2023-10-01 00:00:10"
+  },
+  {
+    "nama": "Kota Soe",
+    "deskripsi": "Kota Soe (ditulis So'E/Soe dibaca So'E) adalah sebuah Kecamatan yang juga merupakan ibukota dari Kabupaten Timor Tengah Selatan, provinsi Nusa Tenggara Timur, Indonesia. Kota ini biasa disebut 'The Freezing City' atau 'Kota Membeku' karena cuaca di kota ini jauh lebih dingin dibandingkan kota lainnya di Pulau Timor. Kota ini berjarak 110 km dari Kupang, atau sekitar 185 km dari Atambua. Luas kota Soe sekitar 28,94 km2 dengan populasi ditahun 2021 berjumlah 41.055 jiwa, dan kepadatan 1.419 jiwa/km².",
+    "latitude": -9.8633341,
+    "longitude": 124.3048096,
+    "created_at": "2023-10-01 00:00:00",
+    "updated_at": "2023-10-01 00:00:10"
+  },
+  {
+    "nama": "Jayapura",
+    "deskripsi": "Kota Jayapura adalah sebuah kota dan juga ibu kota dari Provinsi Papua, Indonesia. Kota ini merupakan ibu kota provinsi yang terletak paling Timur di Indonesia, dan berbatasan langsung dengan negara tetangga Papua Nugini, yang terletak di Teluk Jayapura. Kota ini didirikan oleh Kapten Infanteri F.J.P. Sachse dari kerajaan Belanda pada 7 Maret 1910. Dari tahun 1910 ke 1962, kota ini dikenal sebagai Hollandia merupakan ibu kota distrik dengan nama yang sama di timur laut pulau Papua bagian barat. Kota ini sempat disebut Kota Baru dan Sukarnopura (Sukarnapura, 1964) sebelum menyandang nama yang sekarang pada tahun 1968.[8] Pada pertengahan tahun 2021, jumlah penduduk kota Jayapura sebanyak 362.998 jiwa.",
+    "latitude": -2.5356404,
+    "longitude": 140.7108307,
+    "created_at": "2023-10-01 00:00:00",
+    "updated_at": "2023-10-01 00:00:10"
+  },
+  {
+    "nama": "Pulang Pisau",
+    "deskripsi": "Pulang Pisau adalah salah satu kabupaten di provinsi Kalimantan Tengah, Indonesia. Ibu kota Pulang Pisau berada di kecamatan Kahayan Hilir. Pusat pemerintahan dari Kabupaten ini lebih tepatnya di kelurahan Pulang Pisau, bagian dari kecamatan Kahayan Hilir. Kabupaten Pulang Pisau memiliki luas wilayah 8.997 km² dan berpenduduk sebanyak 120.062 jiwa (hasil Sensus Penduduk Indonesia 2010), dan 136.221 jiwa tahun 2022.[1] Semboyan kabupaten ini adalah 'Handep Hapakat'.",
+    "latitude": -2.7407297,
+    "longitude": 114.2708588,
+    "created_at": "2023-10-01 00:00:00",
+    "updated_at": "2023-10-01 00:00:10"
+  },
+  {
+    "nama": "Sampit",
+    "deskripsi": "Sampit (disingkat: SPT[1]) adalah ibu kota Kabupaten Kotawaringin Timur di Kalimantan Tengah, Indonesia. Lokasi kota Sampit berada di Kecamatan Mentawa Baru Ketapang dan Kecamatan Baamang.[2] Jumlah penduduknya 166.733 jiwa pada tahun 2019 menurut data BPS Kabupaten Kotawaringin Timur. Kota Sampit dibelah oleh Sungai Mentaya dan berada di tengah tengah Sungai Mentaya. Sampit memiliki wilayah seluas 1.365,95 km² dengan kondisi geografi daerah dataran rendah dan sebagian daerahnya berawa, memiliki ketinggian dari 0 sampai 25 meter dari permukaan laut. Pada awal kemerdekaan Indonesia, Sampit terletak di daerah Kotawaringin dengan tiga wilayah adminsitratif dalam bentuk kawedanan yang meliputi Sampit Barat, Sampit Timur, dan Sampit Utara . Hal ini merujuk pada keputusan Gubernur Kalimantan pada tanggal 3 Agustus 1950 dengan Surat Keputusan Nomor 154/OPB/92/04 yang menyatakan bahwa Daerah Kotawaringin (Onder Afdelling Kotawaringin) disatukan dengan tiga kawedanan (Sampit Barat, Sampit Timur dan Sampit Utara) ke dalam wilayah Pemerintah daerah Otonom Kotawaringin dengan ibukotanya di Sampit.",
+    "latitude": -2.5301526,
+    "longitude": 112.9518127,
+    "created_at": "2023-10-01 00:00:00",
+    "updated_at": "2023-10-01 00:00:10"
+  },
+  {
+    "nama": "Tideng Pale",
+    "deskripsi": "Tideng Pale (disingkat: TDP[1]) adalah salah satu desa di kecamatan Sesayap, kabupaten Tana Tidung, provinsi Kalimantan Utara, Indonesia. Tideng Pale menjadi pusat pemerintahan dan ibu kota Kabupaten Tana Tidung. Desa ini memiliki luas wilayah 148,33 km² dengan populasi ditahun 2020 berjumlah 5.296 jiwa, dan kepadatan 35,70 jiwa/km².",
+    "latitude": 3.6079952,
+    "longitude": 116.9068909,
+    "created_at": "2023-10-01 00:00:00",
+    "updated_at": "2023-10-01 00:00:10"
+  },
+  {
+    "nama": "Gorontalo",
+    "deskripsi": "Gorontalo ( Jawi: ڬورونتالو) adalah sebuah provinsi di Indonesia yang terletak di bagian utara Pulau Sulawesi. Provinsi Gorontalo kemudian lahir pada tanggal 5 Desember 2000 berdasarkan Undang-Undang Nomor 38 tahun 2000. Kota Gorontalo kemudian ditetapkan sebagai ibu kota Provinsi Gorontalo, sekaligus menjadi pusat pemerintahan, pusat ekonomi dan perdagangan terbesar di Kawasan Teluk Tomini. Adapun jumlah penduduk Provinsi Gorontalo sebanyak 1.171.681 jiwa (Sensus BPS, 2020), dengan laju pertumbuhan penduduk sebesar 1.16% setiap tahunnya.",
+    "latitude": 0.5479348,
+    "longitude": 123.0592346,
+    "created_at": "2023-10-01 00:00:00",
+    "updated_at": "2023-10-01 00:00:10"
+  },
+  {
+    "nama": "Bandung",
+    "deskripsi": "Kota Bandung (Sunda: aksara Sunda: ᮊᮧᮒ ᮘᮔ᮪ᮓᮥᮀ) dengarkanⓘ adalah ibu kota yang sekaligus menjadi pusat pemerintahan dan perekonomian dari provinsi Jawa Barat, Indonesia. Kota Bandung juga merupakan kota terbesar keempat di Indonesia setelah Jakarta, Surabaya, dan Medan. Bandung menjadi kota terpadat kedua di Indonesia setelah Jakarta dengan kepadatan mencapai 15.051 jiwa/km2. Terletak 140 km di sebelah tenggara Jakarta, Bandung merupakan kota terbesar di bagian selatan pulau Jawa. Bandung merupakan bagian dari Cekungan Bandung (Bandung Raya), kawasan metropolitan terbesar ketiga di Indonesia setelah Jabodetabek dan Surabaya Metropolitan Area. Kota Bandung berbatasan langsung dengan Cimahi dan Kabupaten Bandung Barat di sisi barat dan utara;Kabupaten Bandung di sisi timur dan selatan.",
+    "latitude": -6.9179063,
+    "longitude": 107.6110840,
+    "created_at": "2023-10-01 00:00:00",
+    "updated_at": "2023-10-01 00:00:10"
+  },
+  {
+    "nama": "Tanjung Pandan",
+    "deskripsi": "Tanjungpandan adalah ibu kota Kabupaten Belitung, yang merupakan juga sebuah kecamatan yang berada di Kabupaten Belitung, provinsi Kepulauan Bangka Belitung, Indonesia. Pada tahun 2021, Penduduk kecamatan ini berjumlah 103.062 jiwa, dengan kepadatan 272 jiwa/km².",
+    "latitude": -2.7373004,
+    "longitude": 107.6574326,
+    "created_at": "2023-10-01 00:00:00",
+    "updated_at": "2023-10-01 00:00:10"
+  },
+  {
+    "nama": "Singkawang",
+    "deskripsi": "Singkawang atau Sakawokng dalam bahasa Dayak Salako atau San-Khew-Jong (bahasa Hakka: 山口洋) adalah sebuah kota yang terletak di provinsi Kalimantan Barat, Indonesia. Kota ini terletak di sekitar 145 km sebelah utara dari ibu kota provinsi, Kota Pontianak, dan dikelilingi oleh pegunungan Pasi, Poteng, dan Sakkok. Singkawang berasal dari bahasa Dayak Salako,[8] yang mengacu pada wilayah rawa yang sangat luas. Selain itu, nenek moyang masyarakat Tionghoa Hakka menamai kawasan ini sebagai 'San-Khew-Jong' (Gunung-Mulut-Laut), yang artinya 'kota yang terletak di kaki gunung dekat laut dan memiliki aliran sungai yang mengalir sampai ke muara sungai'. Kota ini meliputi wilayah seluas 504 km2 dan memiliki populasi 186.462 penduduk pada sensus tahun 2010,[3] dan 241.467 penduduk pada tahun 2022.",
+    "latitude": 0.9131999,
+    "longitude": 108.9895248,
+    "created_at": "2023-10-01 00:00:00",
+    "updated_at": "2023-10-01 00:00:10"
+  },
+  {
+    "nama": "Tobelo",
+    "deskripsi": "Tobelo merupakan kecamatan yang berada di kabupaten Halmahera Utara, provinsi Maluku Utara, Indonesia, dan juga merupakan ibu kota atau pusat pemerintahan dari Halmahera Utara. Pada tahun 2004 melalui pemilihan distrik menjadi Kabupaten Halmahera Utara yang sebelumnya merupakan sebuah kecamatan.[2] Penduduk kecamatan ini berjumlah 34.648 jiwa (2021), dengan luas wilayah 57,81 km², dan kepadatan penduduk 596,23 jiwa/km².",
+    "latitude": 1.7281963,
+    "longitude": 127.9993916,
+    "created_at": "2023-10-01 00:00:00",
+    "updated_at": "2023-10-01 00:00:10"
+  },
+  {
+    "nama": "Skouw",
+    "deskripsi": "Perbatasan Papua dan Papua New Guinea yang berjarak sekitar 60 kilometer dari Kota Jayapura. Skouw menjadi daerah terbuka bagi warga dua negara, Indonesia dan Papua Nugini dalam bertransaksi jual beli, khususnya di pasar tradisional setempat. Skouw juga menjadi tempat transit bagi warga Papua Nugini yang ingin berbelanja di Kota Jayapura. Di Skouw, terdapat pasar tradisional yang menjual berbagai kebutuhan sehari-hari, seperti sayur-mayur, buah-buahan, ikan, daging, dan lain-lain. Selain itu, di Skouw juga terdapat pasar modern yang menjual berbagai kebutuhan sehari-hari, seperti sayur-mayur, buah-buahan, ikan, daging, dan lain-lain. Selain itu, di Skouw juga terdapat pasar modern yang menjual berbagai kebutuhan sehari-hari, seperti sayur-mayur, buah-buahan, ikan, daging, dan lain-lain. Selain itu, di Skouw juga terdapat pasar modern yang menjual berbagai kebutuhan sehari-hari, seperti sayur-mayur, buah-buahan, ikan, daging, dan lain-lain.",
+    "latitude": -2.6088660,
+    "longitude": 140.9958100,
+    "created_at": "2023-10-01 00:00:00",
+    "updated_at": "2023-10-01 00:00:10"
+  }
+]

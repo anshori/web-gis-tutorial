@@ -124,7 +124,7 @@ $data = json_decode($json, true);
 $this->db->table('datalokasiobjeks')->insertBatch($data);
 ```
 
-> [Download json data](https://drive.google.com/file/d/1SmIKSe52Xyg5hZjKaGhhLgQfx9iLvMtG/view?usp=sharing)
+> Download JSON Data Sample: [Direct Link](data/datalokasiobjek.json) | [Google Drive](https://drive.google.com/file/d/1Jfnn3Y6bhvy6sye55_kxpnFI5NMl_vk-/view?usp=sharing)
 
 
 ## Controller - Method GeoJSON Point Services
