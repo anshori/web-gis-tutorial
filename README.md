@@ -4,7 +4,7 @@ Project Application Name: **Peta Lokasi Objek**
 
 Framework: **CodeIgniter 4**
 
-Database: **PostgreSQL - PostGIS (recommended)** or **MySQL**
+Database: **PostgreSQL - PostGIS**
 
 Presentasi: [https://docs.google.com/presentation/d/1nZsY9Y4Jz-MZ5HdeYoY5X9srUI4PL8ZyMOkudBR8Jy4/edit?usp=sharing](https://docs.google.com/presentation/d/1nZsY9Y4Jz-MZ5HdeYoY5X9srUI4PL8ZyMOkudBR8Jy4/edit?usp=sharing)
 
