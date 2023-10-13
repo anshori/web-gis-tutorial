@@ -4,14 +4,18 @@ Project Application Name: **Peta Lokasi Objek**
 
 Framework: **CodeIgniter 4**
 
+Database: **PostgreSQL - PostGIS (recommended)** or **MySQL**
+
 Presentasi: [https://docs.google.com/presentation/d/1nZsY9Y4Jz-MZ5HdeYoY5X9srUI4PL8ZyMOkudBR8Jy4/edit?usp=sharing](https://docs.google.com/presentation/d/1nZsY9Y4Jz-MZ5HdeYoY5X9srUI4PL8ZyMOkudBR8Jy4/edit?usp=sharing)
 
-___    
+---
 
 ## CodeIgniter Documentation
+
 [https://codeigniter.com/user_guide/index.html](https://codeigniter.com/user_guide/index.html)
 
 ## Install CodeIgniter 4 Menggunakan Composer
+
 ```
 composer create-project codeigniter4/appstarter peta-lokasi-objek
 ```
@@ -19,6 +23,7 @@ composer create-project codeigniter4/appstarter peta-lokasi-objek
 ## CI4 Database Connection
 
 **PostgreSQL**
+
 ```
 database.default.hostname = localhost
 database.default.database = [_YOUR_DATABASE_NAME_]
@@ -30,6 +35,7 @@ database.default.port = 5432
 ```
 
 **MySQL**
+
 ```
 database.default.hostname = localhost
 database.default.database = [_YOUR_DATABASE_NAME_]
@@ -41,13 +47,16 @@ database.default.port = 3306
 ```
 
 ## Membuat Model Datalokasiobjek
+
 ```
 php spark make:model DatalokasiobjekModel
 ```
 
 ## Konfigurasi Model
+
 ```
 protected $allowedFields = [
+  'geom',
   'nama',
   'deskripsi',
   'latitude',
@@ -56,9 +65,21 @@ protected $allowedFields = [
 
 // Dates
 protected $useTimestamps = true;
+
+// Add this method
+public function dataobjek()
+{
+  // Query Builder
+  $query = $this->select('id, ST_AsGeoJSON(geom) as geom, nama, deskripsi, created_at, updated_at')
+    ->get()
+    ->getResultArray();
+
+  return $query;
+}
 ```
 
 ## Membuat Migration Tabel Datalokasiobjek
+
 ```
 php spark make:migration Datalokasiobjek
 ```
@@ -66,12 +87,16 @@ php spark make:migration Datalokasiobjek
 ## Konfigurasi Migration Datalokasiobjek
 
 **public function up()**
+
 ```
 $this->forge->addField([
   'id' => [
     'type' => 'INT',
     'constraint' => 11,
     'auto_increment' => true,
+  ],
+  'geom' => [
+    'type' => 'geography(geometry,4326)',
   ],
   'nama' => [
     'type' => 'VARCHAR',
@@ -103,51 +128,64 @@ $this->forge->createTable('datalokasiobjeks');
 ```
 
 **public function down()**
+
 ```
 $this->forge->dropTable('datalokasiobjeks');
 ```
 
 ## Membuat Seeder Datalokasiobjek
+
 ```
 php spark make:seeder DatalokasiobjekSeeder
 ```
 
 ## Konfigurasi Seeder Datalokasiobjek
+
 ```
-// get data from json file
+// get data from json file at public/data
 $json = file_get_contents('data/datalokasiobjek.json');
 
 // decode json
 $data = json_decode($json, true);
 
 // insert to database
-$this->db->table('datalokasiobjeks')->insertBatch($data);
+foreach ($data as $value) {
+  $this->db->table('datalokasiobjeks')->insert(
+    [
+      'geom' => "POINT(" . $value['longitude'] . " " . $value['latitude'] . ")", // for postgis
+      'nama' => $value['nama'],
+      'deskripsi' => $value['deskripsi'],
+      'latitude' => $value['latitude'],
+      'longitude' => $value['longitude'],
+      'created_at' => date('Y-m-d H:i:s'),
+      'updated_at' => date('Y-m-d H:i:s'),
+    ]
+  );
+}
 ```
 
 > Download JSON Data Sample: [Direct Link](data/datalokasiobjek.json) | [Google Drive](https://drive.google.com/file/d/1Jfnn3Y6bhvy6sye55_kxpnFI5NMl_vk-/view?usp=sharing)
 
-
 ## Controller - Method GeoJSON Point Services
+
 ```
-$datalokasiobjek = $this->datalokasiobjek->findAll();
+$datalokasiobjek = $this->datalokasiobjek->dataobjek();
 
 $geojson = [
-   'type' => 'FeatureCollection',
-   'features' => [],
+  'type' => 'FeatureCollection',
+  'features' => [],
 ];
 foreach ($datalokasiobjek as $row) {
-   $feature = [
-       'type' => 'Feature',
-       'properties' => $row,
-       'geometry' => [
-           'type' => 'Point',
-           'coordinates' => [
-               $row['longitude'],
-               $row['latitude'],
-           ],
-       ],
-   ];
-   array_push($geojson['features'], $feature);
+  $feature = [
+    'type' => 'Feature',
+    'properties' => $row,
+    'geometry' => json_decode($row['geom']),
+  ];
+  
+  // make hidden geom
+  unset($feature['properties']['geom']);
+
+  array_push($geojson['features'], $feature);
 }
 
 // json numeric check
@@ -155,8 +193,8 @@ $geojson = json_encode($geojson, JSON_NUMERIC_CHECK);
 return $this->response->setJSON($geojson);
 ```
 
-
 ## View - Leaflet Point GeoJSON Layer with jQuery
+
 ```
 // GeoJSON Point Layer
 var point = L.geoJson(null, {
@@ -173,7 +211,7 @@ var point = L.geoJson(null, {
     });
   },
 });
-$.getJSON("http://localhost:8080/geojson-point", function (data) {
+$.getJSON("<?= base_url('geojson-point') ?>", function (data) {
   point.addData(data);
   map.addLayer(point);
   // fit map to geojson
@@ -182,7 +220,9 @@ $.getJSON("http://localhost:8080/geojson-point", function (data) {
 ```
 
 ## View - Form Input With Coordinate by Marker Location
+
 [https://anshori.github.io/leaflet-search-coordinates/](https://anshori.github.io/leaflet-search-coordinates/)
 
-___    
+---
+
 > [unsorry@2023](https://unsorry.net)
