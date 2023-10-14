@@ -1,12 +1,12 @@
 # Web GIS Tutorial
 
-Project Application Name: **Peta Lokasi Objek**
+Project Application Name: **Peta Lokasi Mahasiswa**
 
 Framework: **CodeIgniter 4**
 
-Database: **PostgreSQL - PostGIS**
+Database: **MySQL**
 
-Presentasi: [https://docs.google.com/presentation/d/1nZsY9Y4Jz-MZ5HdeYoY5X9srUI4PL8ZyMOkudBR8Jy4/edit?usp=sharing](https://docs.google.com/presentation/d/1nZsY9Y4Jz-MZ5HdeYoY5X9srUI4PL8ZyMOkudBR8Jy4/edit?usp=sharing)
+Presentasi: [https://docs.google.com/presentation/d/1SzhhnJqGAyvIsACKlFeBsbWa3FUTVFanpxpNelYCsHo/edit?usp=sharing](https://docs.google.com/presentation/d/1SzhhnJqGAyvIsACKlFeBsbWa3FUTVFanpxpNelYCsHo/edit?usp=sharing)
 
 ---
 
@@ -17,22 +17,10 @@ Presentasi: [https://docs.google.com/presentation/d/1nZsY9Y4Jz-MZ5HdeYoY5X9srUI4
 ## Install CodeIgniter 4 Menggunakan Composer
 
 ```
-composer create-project codeigniter4/appstarter peta-lokasi-objek
+composer create-project codeigniter4/appstarter peta-lokasi-mahasiswa
 ```
 
 ## CI4 Database Connection
-
-**PostgreSQL**
-
-```
-database.default.hostname = localhost
-database.default.database = [_YOUR_DATABASE_NAME_]
-database.default.username = postgres
-database.default.password = [_YOUR_PASSWORD_POSTGRES_]
-database.default.DBDriver = Postgre
-database.default.DBPrefix =
-database.default.port = 5432
-```
 
 **MySQL**
 
@@ -46,45 +34,13 @@ database.default.DBPrefix =
 database.default.port = 3306
 ```
 
-## Membuat Model Datalokasiobjek
+## Membuat Migration Tabel Datamahasiswa
 
 ```
-php spark make:model DatalokasiobjekModel
+php spark make:migration Datamahasiswa
 ```
 
-## Konfigurasi Model
-
-```
-protected $allowedFields = [
-  'geom',
-  'nama',
-  'deskripsi',
-  'latitude',
-  'longitude',
-];
-
-// Dates
-protected $useTimestamps = true;
-
-// Add this method
-public function dataobjek()
-{
-  // Query Builder
-  $query = $this->select('id, ST_AsGeoJSON(geom) as geom, nama, deskripsi, created_at, updated_at')
-    ->get()
-    ->getResultArray();
-
-  return $query;
-}
-```
-
-## Membuat Migration Tabel Datalokasiobjek
-
-```
-php spark make:migration Datalokasiobjek
-```
-
-## Konfigurasi Migration Datalokasiobjek
+## Konfigurasi Migration Datamahasiswa
 
 **public function up()**
 
@@ -102,17 +58,12 @@ $this->forge->addField([
     'type' => 'VARCHAR',
     'constraint' => 255,
   ],
-  'deskripsi' => [
+  'jeniskelamin' => [
+    'type' => 'TEXT',
+  ],
+  'alamat' => [
     'type' => 'TEXT',
     'null' => true,
-  ],
-  'latitude' => [
-    'type' => 'decimal',
-    'constraint' => '10,8',
-  ],
-  'longitude' => [
-    'type' => 'decimal',
-    'constraint' => '11,8',
   ],
   'created_at' => [
     'type' => 'DATETIME',
@@ -124,73 +75,145 @@ $this->forge->addField([
   ],
 ]);
 $this->forge->addKey('id', true);
-$this->forge->createTable('datalokasiobjeks');
+$this->forge->createTable('datamahasiswas');
 ```
 
 **public function down()**
 
 ```
-$this->forge->dropTable('datalokasiobjeks');
+$this->forge->dropTable('datamahasiswas');
 ```
 
-## Membuat Seeder Datalokasiobjek
+## Membuat Seeder Datamahasiswa
 
 ```
-php spark make:seeder DatalokasiobjekSeeder
+php spark make:seeder DatamahasiswaSeeder
 ```
 
-## Konfigurasi Seeder Datalokasiobjek
+## Konfigurasi Seeder Datamahasiswa
 
 ```
 // get data from json file at public/data
-$json = file_get_contents('data/datalokasiobjek.json');
+$json = file_get_contents('data/datamahasiswa.json');
 
 // decode json
 $data = json_decode($json, true);
 
 // insert to database
 foreach ($data as $value) {
-  $this->db->table('datalokasiobjeks')->insert(
-    [
-      'geom' => "POINT(" . $value['longitude'] . " " . $value['latitude'] . ")", // for postgis
-      'nama' => $value['nama'],
-      'deskripsi' => $value['deskripsi'],
-      'latitude' => $value['latitude'],
-      'longitude' => $value['longitude'],
-      'created_at' => date('Y-m-d H:i:s'),
-      'updated_at' => date('Y-m-d H:i:s'),
-    ]
-  );
+  $sqlquery = "INSERT INTO datamahasiswas (geom, nama, jeniskelamin, alamat, created_at, updated_at) VALUES (ST_GeomFromText('POINT(" . $value['longitude'] . " " . $value['latitude'] . ")'), '" . $value['nama'] . "', '" . $value['jeniskelamin'] . "', '" . $value['alamat'] . "', '" . date('Y-m-d H:i:s') . "', '" . date('Y-m-d H:i:s') . "')";
+  $this->db->query($sqlquery);
 }
 ```
 
-> Download JSON Data Sample: [Direct Link](data/datalokasiobjek.json) | [Google Drive](https://drive.google.com/file/d/1Jfnn3Y6bhvy6sye55_kxpnFI5NMl_vk-/view?usp=sharing)
+> Download JSON Data Sample: [Direct Link](data/datamahasiswa.json) | [Google Drive](https://drive.google.com/file/d/1wJskLFT0fjuy9Xh3hxLcPn-RmNG-lHb4/view?usp=sharing)
+
+
+## Membuat Model Datamahasiswa
+
+```
+php spark make:model DatamahasiswaModel
+```
+
+## Konfigurasi Model
+
+```
+protected $allowedFields = [
+  'geom',
+  'nama',
+  'jeniskelamin',
+  'alamat',
+];
+
+// Dates
+protected $useTimestamps = true;
+```
+
+## Method query data mahasiswa di dalam model
+```
+// Query data mahasiswa
+public function mahasiswa()
+{
+  // Query Builder
+  $query = $this->select('id, ST_AsGeoJSON(geom) as geom, nama, jeniskelamin, alamat, created_at, updated_at')
+    ->get()
+    ->getResultArray();
+
+  return $query;
+}
+```
+
+## Method query data mahasiswa berdasarkan ID di dalam model
+```
+// Query data mahasiswa by id mahasiswa
+public function mahasiswabyid()
+{
+  // Query Builder
+  $query = $this->select('id, ST_AsGeoJSON(geom) as geom, nama, jeniskelamin, alamat, created_at, updated_at')
+    ->where('id', $id)
+    ->first();
+
+  return $query;
+}
+```
+
+## Controller Home
+```
+public function __construct()
+{
+  $this->datamhs = new Datamahasiswa();
+}
+
+
+// method untuk menampilkan halaman peta
+public function index(): string
+{
+  $data = [
+    'title' => 'Peta Lokasi Mahasiswa',
+  ];
+
+  return view('map', $data);
+}
+```
 
 ## Controller - Method GeoJSON Point Services
 
 ```
-$datalokasiobjek = $this->datalokasiobjek->dataobjek();
+public function geojson_point(): object
+{
+  $datamhs = $this->datamhs->mahasiswa();
 
-$geojson = [
-  'type' => 'FeatureCollection',
-  'features' => [],
-];
-foreach ($datalokasiobjek as $row) {
-  $feature = [
-    'type' => 'Feature',
-    'properties' => $row,
-    'geometry' => json_decode($row['geom']),
+  $geojson = [
+    'type' => 'FeatureCollection',
+    'features' => [],
   ];
-  
-  // make hidden geom
-  unset($feature['properties']['geom']);
 
-  array_push($geojson['features'], $feature);
+  foreach ($datamhs as $row) {
+    $feature = [
+      'type' => 'Feature',
+      'properties' => $row,
+      'geometry' => json_decode($row['geom']),
+    ];
+
+    // hidden geom from properties
+    unset($feature['properties']['geom']);
+
+    array_push($geojson['features'], $feature);
+  }
+
+  // json numeric check
+  $geojson = json_encode($geojson, JSON_NUMERIC_CHECK);
+  return $this->response->setJSON($geojson);
 }
+```
 
-// json numeric check
-$geojson = json_encode($geojson, JSON_NUMERIC_CHECK);
-return $this->response->setJSON($geojson);
+## Route
+```
+// call method index from controller home
+$routes->get('/', 'Home::index');
+
+// call method geojson_point from controller home
+$routes->get('geojson-point', 'Home::geojson_point');
 ```
 
 ## View - Leaflet Point GeoJSON Layer with jQuery
@@ -200,7 +223,8 @@ return $this->response->setJSON($geojson);
 var point = L.geoJson(null, {
   onEachFeature: function (feature, layer) {
     var popupContent = "<h5>" + feature.properties.nama + "</h5>" +
-      "<p>" + feature.properties.deskripsi + "</p>";
+      "<p>" + feature.properties.jeniskelamin + "</p>"
+      "<p>" + feature.properties.alamat + "</p>";
     layer.on({
       click: function (e) {
         point.bindPopup(popupContent);
@@ -211,7 +235,7 @@ var point = L.geoJson(null, {
     });
   },
 });
-$.getJSON("<?= base_url('geojson-point') ?>", function (data) {
+$.getJSON("<?= base_url(‘geojson-point’) ?>", function (data) {
   point.addData(data);
   map.addLayer(point);
   // fit map to geojson

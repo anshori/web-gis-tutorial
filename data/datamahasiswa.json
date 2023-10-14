@@ -1,0 +1,107 @@
+[
+  {
+    "nama": "Paijo",
+    "jeniskelamin": "Laki-laki",
+    "alamat": "Jln Kusumoyudan No. 200, Surakarta",
+    "latitude": -7.5630348,
+    "longitude": 110.8261943
+  },
+  {
+    "nama": "Jolodot",
+    "jeniskelamin": "Laki-laki",
+    "alamat": "Jln Kabut No. 403, Surakarta",
+    "latitude": -7.5538563,
+    "longitude": 110.8575010
+  },
+  {
+    "nama": "Fandra",
+    "jeniskelamin": "Laki-laki",
+    "alamat": "Jln Merak IV No. 404, Surakarta",
+    "latitude": -7.5524951,
+    "longitude": 110.8164389
+  },
+  {
+    "nama": "Iis",
+    "jeniskelamin": "Perempuan",
+    "alamat": "Jln Griya Nusa Indah No. 13, Surakarta",
+    "latitude": -7.5217139,
+    "longitude": 110.7655871
+  },
+  {
+    "nama": "Santi",
+    "jeniskelamin": "Perempuan",
+    "alamat": "Gedongan Residence No. 3, Surakarta",
+    "latitude": -7.5324992,
+    "longitude": 110.7808435
+  },
+  {
+    "nama": "Agus",
+    "jeniskelamin": "Laki-laki",
+    "alamat": "Jln. Podang No. 14, Surakarta",
+    "latitude": -7.5517079,
+    "longitude": 110.8776283
+  },
+  {
+    "nama": "Larasati",
+    "jeniskelamin": "Perempuan",
+    "alamat": "Gg. Larasati No. 3, Surakarta",
+    "latitude": -7.5488468,
+    "longitude": 110.8752787
+  },
+  {
+    "nama": "Cempaka",
+    "jeniskelamin": "Perempuan",
+    "alamat": "Jln. Cempaka No. 41, Surakarta",
+    "latitude": -7.5709235,
+    "longitude": 110.8645770
+  },
+  {
+    "nama": "Eko",
+    "jeniskelamin": "Laki-laki",
+    "alamat": "Griya Teratai Permai I No. 41, Surakarta",
+    "latitude": -7.5908777,
+    "longitude": 110.8446372
+  },
+  {
+    "nama": "Dwi",
+    "jeniskelamin": "Perempuan",
+    "alamat": "Jln. Tejosari No. 21, Surakarta",
+    "latitude": -7.5847626,
+    "longitude": 110.8235872
+  },
+  {
+    "nama": "Tri",
+    "jeniskelamin": "Perempuan",
+    "alamat": "Jln. Bledhak No. 11, Surakarta",
+    "latitude": -7.5671614,
+    "longitude": 110.8017218
+  },
+  {
+    "nama": "Septa",
+    "jeniskelamin": "Laki-laki",
+    "alamat": "Jln. Papagan No. 141, Surakarta",
+    "latitude": -7.5609928,
+    "longitude": 110.7781076
+  },
+  {
+    "nama": "Septi",
+    "jeniskelamin": "Perempuan",
+    "alamat": "Jln. Purbaya No. 142, Surakarta",
+    "latitude": -7.5355837,
+    "longitude": 110.8999389
+  },
+  {
+    "nama": "Gunawan",
+    "jeniskelamin": "Laki-laki",
+    "alamat": "Jln. Kusuma 2 No. 2, Surakarta",
+    "latitude": -7.5387852,
+    "longitude": 110.8480543
+  },
+  {
+    "nama": "Desi",
+    "jeniskelamin": "Perempuan",
+    "alamat": "Jln. Rinjani Dalam 5 No. 9, Surakarta",
+    "latitude": -7.5402849,
+    "longitude": 110.8410859
+  }
+]
