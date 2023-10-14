@@ -298,6 +298,10 @@ $routes->get('geojson-point', 'Home::geojson_point');
 </html>
 ```
 
+Untuk menentukan koordinat tengah peta dan nilai zoom level peta, Anda dapat menggunakan aplikasi ini
+>[https://anshori.github.io/leafletjs-mapcentercoordinate](https://anshori.github.io/leafletjs-mapcentercoordinate)
+
+
 ## View - Leaflet Point GeoJSON Layer with jQuery
 ```
 // GeoJSON Point Layer
