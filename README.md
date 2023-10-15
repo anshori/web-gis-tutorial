@@ -311,6 +311,11 @@ public function create(): string
 }
 ```
 
+## Create Route
+```
+$routes->get('tambah-data', 'Home::create');
+```
+
 ## Controller - Store Data
 ```
 public function store(): object
@@ -335,6 +340,11 @@ public function store(): object
 }
 ```
 
+## Store Route
+```
+$routes->post('store', 'Home::store');
+```
+
 ## Controller - Edit Data
 ```
 public function edit($id): string
@@ -355,9 +365,14 @@ public function edit($id): string
 }
 ```
 
+## Edit Route
+```
+$routes->get('edit-data/(:num)', 'Home::edit/$1');
+```
+
 ## Controller - Update Data
 ```
-public function update(): object
+public function update($id): object
 {
   // time zone jakarta
   date_default_timezone_set('Asia/Jakarta');
@@ -377,6 +392,11 @@ public function update(): object
 }
 ```
 
+## Update Route
+```
+$routes->put('update/(:num)', 'Home::update/$1');
+```
+
 ## Controller - Delete Data
 ```
 public function delete($id): object
@@ -385,6 +405,11 @@ public function delete($id): object
 
   return redirect()->to(base_url('tabel'));
 }
+```
+
+## Delete Route
+```
+$routes->delete('delete/(:num)', 'Home::delete/$1');
 ```
 
 ---
