@@ -2,7 +2,7 @@
 
 Project Application Name: **Peta Lokasi Mahasiswa**
 
-Framework: **CodeIgniter 4**
+Framework: **CodeIgniter 4** (built based on version 4.4.1)
 
 Database: **MySQL**
 
