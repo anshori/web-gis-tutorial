@@ -2,15 +2,32 @@
 
 Project Application Name: **Peta Lokasi Mahasiswa**
 
-Framework: **CodeIgniter 4** (built based on version 4.4.1)
-
-Database: **MySQL**
-
 Presentasi: [https://docs.google.com/presentation/d/1SzhhnJqGAyvIsACKlFeBsbWa3FUTVFanpxpNelYCsHo/edit?usp=sharing](https://docs.google.com/presentation/d/1SzhhnJqGAyvIsACKlFeBsbWa3FUTVFanpxpNelYCsHo/edit?usp=sharing)
 
----
+Demo: [https://petalokasimahasiswa.unsorry.net/](https://petalokasimahasiswa.unsorry.net/)
+
+---    
+
+## Fitur
+
+1. Peta Lokasi Mahasiswa
+2. Tabel Data Mahasiswa
+3. Tambah Data Mahasiswa
+4. Edit Data Mahasiswa
+5. Hapus Data Mahasiswa
+
+## Stack
+
+- Programming Language: **JavaScript, PHP**
+
+- Framework: **CodeIgniter 4** (built based on version 4.4.1)
+
+- Library: **LeafletJS, Bootstrap**
+
+- Database: **MySQL**
 
 ## CodeIgniter Documentation
+
 [https://codeigniter.com/user_guide/index.html](https://codeigniter.com/user_guide/index.html)
 
 
@@ -36,7 +53,7 @@ database.default.port = 3306
 php spark make:migration Datamahasiswa
 ```
 
-## Konfigurasi Migration Datamahasiswa
+## Konfigurasi Migration Tabel Datamahasiswa
 **public function up()**
 ```
 $this->forge->addField([
@@ -394,7 +411,7 @@ public function update($id): object
 
 ## Update Route
 ```
-$routes->put('update/(:num)', 'Home::update/$1');
+$routes->patch('update/(:num)', 'Home::update/$1');
 ```
 
 ## Controller - Delete Data
