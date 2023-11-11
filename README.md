@@ -8,6 +8,16 @@ Demo: [https://petalokasimahasiswa.unsorry.net/](https://petalokasimahasiswa.uns
 
 ---    
 
+## Tools
+1. Database MySQL (XAMPP): [https://www.apachefriends.org/download.html](https://www.apachefriends.org/download.html)
+2. PHP 7.4 or higher (XAMPP): [https://www.apachefriends.org/download.html](https://www.apachefriends.org/download.html)
+3. Composer (Windows Installer): [https://getcomposer.org/Composer-Setup.exe](https://getcomposer.org/Composer-Setup.exe)
+4. Visual Studio Code: [https://code.visualstudio.com/download](https://code.visualstudio.com/download)
+
+## PHP Extension
+1. Buka file **_php.ini_** pada direktori **_C:\xampp\php_** menggunakan text editor (notepad, notepad++)
+2. Aktifkan ekstensi intl, mbstring, mysqli, gd, curl, zip dengan menghilangkan tanda **;** pada awal baris
+
 ## Fitur
 
 1. Peta Lokasi Mahasiswa
