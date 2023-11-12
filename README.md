@@ -1,4 +1,4 @@
-# Web GIS Tutorial
+# Dynamic Web GIS Basic Tutorial
 
 Project Application Name: **Peta Lokasi Mahasiswa**
 
